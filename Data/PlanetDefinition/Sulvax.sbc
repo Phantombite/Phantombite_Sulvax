@@ -75,71 +75,55 @@
 			<!-- ************************************************************************************************************************-->
 
 			<OreMappings>
-				<!-- Eisen - flach und mittel -->
-				<Ore Value="1"   Type="Iron_02" Start="5"  Depth="5" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="4"   Type="Iron_02" Start="8"  Depth="5" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="8"   Type="Iron_02" Start="12" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="12"  Type="Iron_02" Start="20" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="16"  Type="Iron_02" Start="25" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="20"  Type="Iron_02" Start="30" Depth="8" TargetColor="#000000" ColorInfluence="200"/>
+				<!-- Eisen - sehr häufig (Wert 1-6, ~17% der Map) -->
+				<Ore Value="1"  Type="Iron_02" Start="5"  Depth="5" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="2"  Type="Iron_02" Start="8"  Depth="5" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="3"  Type="Iron_02" Start="12" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="4"  Type="Iron_02" Start="20" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="5"  Type="Iron_02" Start="25" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="6"  Type="Iron_02" Start="30" Depth="8" TargetColor="#000000" ColorInfluence="200"/>
 
 				<!-- Nickel -->
-				<Ore Value="24"  Type="Nickel_01" Start="10" Depth="4" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="28"  Type="Nickel_01" Start="11" Depth="4" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="32"  Type="Nickel_01" Start="11" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="36"  Type="Nickel_01" Start="24" Depth="5" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="40"  Type="Nickel_01" Start="27" Depth="5" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="44"  Type="Nickel_01" Start="30" Depth="8" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="7"  Type="Nickel_01" Start="10" Depth="4" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="8"  Type="Nickel_01" Start="11" Depth="4" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="9"  Type="Nickel_01" Start="11" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="10" Type="Nickel_01" Start="24" Depth="5" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="11" Type="Nickel_01" Start="27" Depth="5" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="12" Type="Nickel_01" Start="30" Depth="8" TargetColor="#000000" ColorInfluence="200"/>
 
 				<!-- Silizium -->
-				<Ore Value="48"  Type="Silicon_01" Start="9"  Depth="4" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="52"  Type="Silicon_01" Start="13" Depth="4" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="56"  Type="Silicon_01" Start="10" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="60"  Type="Silicon_01" Start="22" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="64"  Type="Silicon_01" Start="25" Depth="7" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="68"  Type="Silicon_01" Start="27" Depth="9" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="13" Type="Silicon_01" Start="9"  Depth="4" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="15" Type="Silicon_01" Start="13" Depth="4" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="16" Type="Silicon_01" Start="10" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="18" Type="Silicon_01" Start="22" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="20" Type="Silicon_01" Start="25" Depth="7" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="21" Type="Silicon_01" Start="27" Depth="9" TargetColor="#000000" ColorInfluence="200"/>
 
-				<!-- Kobalt - mittel tief -->
-				<Ore Value="72"  Type="Cobalt_01" Start="20" Depth="3" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="76"  Type="Cobalt_01" Start="22" Depth="4" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="80"  Type="Cobalt_01" Start="26" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="84"  Type="Cobalt_01" Start="52" Depth="5" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="88"  Type="Cobalt_01" Start="55" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="92"  Type="Cobalt_01" Start="62" Depth="9" TargetColor="#000000" ColorInfluence="200"/>
+				<!-- Kobalt -->
+				<Ore Value="24" Type="Cobalt_01" Start="20" Depth="3" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="27" Type="Cobalt_01" Start="22" Depth="4" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="30" Type="Cobalt_01" Start="26" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="31" Type="Cobalt_01" Start="52" Depth="5" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="33" Type="Cobalt_01" Start="55" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="34" Type="Cobalt_01" Start="62" Depth="9" TargetColor="#000000" ColorInfluence="200"/>
 
-				<!-- Silber -->
-				<Ore Value="96"  Type="Silver_01" Start="21" Depth="3" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="100" Type="Silver_01" Start="25" Depth="3" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="104" Type="Silver_01" Start="31" Depth="5" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="108" Type="Silver_01" Start="55" Depth="8" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="112" Type="Silver_01" Start="58" Depth="9" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="116" Type="Silver_01" Start="63" Depth="11" TargetColor="#000000" ColorInfluence="200"/>
+				<!-- Magnesium - gleichwertig mit Kobalt -->
+				<Ore Value="36" Type="Magnesium_01" Start="20" Depth="3" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="37" Type="Magnesium_01" Start="24" Depth="4" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="39" Type="Magnesium_01" Start="29" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="41" Type="Magnesium_01" Start="53" Depth="5" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="43" Type="Magnesium_01" Start="58" Depth="7" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="45" Type="Magnesium_01" Start="63" Depth="9" TargetColor="#000000" ColorInfluence="200"/>
 
-				<!-- Magnesium - flach und tief -->
-				<Ore Value="120" Type="Magnesium_01" Start="23" Depth="4" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="124" Type="Magnesium_01" Start="26" Depth="4" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="128" Type="Magnesium_01" Start="29" Depth="5" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="132" Type="Magnesium_01" Start="53" Depth="7" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="136" Type="Magnesium_01" Start="55" Depth="8" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="140" Type="Magnesium_01" Start="59" Depth="10" TargetColor="#000000" ColorInfluence="200"/>
+				<!-- Silber - selten -->
+				<Ore Value="47" Type="Silver_01" Start="31" Depth="5" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="49" Type="Silver_01" Start="55" Depth="8" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="51" Type="Silver_01" Start="63" Depth="11" TargetColor="#000000" ColorInfluence="200"/>
 
-				<!-- Eisen tief (statt Ice) -->
-				<Ore Value="144" Type="Iron_02" Start="32" Depth="5" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="148" Type="Iron_02" Start="35" Depth="5" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="152" Type="Iron_02" Start="40" Depth="6" TargetColor="#000000" ColorInfluence="200"/>
-
-				<!-- Kobalt tief (statt Ice) -->
-				<Ore Value="156" Type="Cobalt_01" Start="80" Depth="8" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="160" Type="Cobalt_01" Start="89" Depth="9" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="164" Type="Cobalt_01" Start="96" Depth="11" TargetColor="#000000" ColorInfluence="200"/>
-
-				<!-- Gold - erreichbar, aber nicht trivial -->
-				<Ore Value="168" Type="Gold_01" Start="30" Depth="2" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="172" Type="Gold_01" Start="32" Depth="2" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="176" Type="Gold_01" Start="35" Depth="3" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="180" Type="Gold_01" Start="60" Depth="4" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="184" Type="Gold_01" Start="70" Depth="5" TargetColor="#000000" ColorInfluence="200"/>
-				<Ore Value="188" Type="Gold_01" Start="80" Depth="8" TargetColor="#000000" ColorInfluence="200"/>
+				<!-- Gold - selten aber findbar -->
+				<Ore Value="54" Type="Gold_01" Start="32" Depth="3" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="57" Type="Gold_01" Start="60" Depth="5" TargetColor="#000000" ColorInfluence="200"/>
+				<Ore Value="61" Type="Gold_01" Start="75" Depth="8" TargetColor="#000000" ColorInfluence="200"/>
 			</OreMappings>
 
 			<!-- ************************************************************************************************************************-->
@@ -754,6 +738,7 @@
 			<!-- ************************************************************************************************************************-->
 
 			<SurfaceGravity>1.2</SurfaceGravity>
+			<GravityFalloffPower>5</GravityFalloffPower>
 			<DefaultSurfaceMaterial Material="PertamSand" MaxDepth="10"/>
 			<DefaultSubSurfaceMaterial Material="DesertRocks"/>
 
@@ -892,15 +877,15 @@
 
 			<AnimalSpawnInfo>
 				<Animals>
+				<Animal Type="Wolf"/>
 				<Animal Type="SpaceSpiderBrown"/>
-				<Animal Type="SpaceSpiderBlack"/>
 				</Animals>
 				<SpawnDelayMin>300000</SpawnDelayMin>
 				<SpawnDelayMax>2700000</SpawnDelayMax>
 				<SpawnDistMin>100</SpawnDistMin>
 				<SpawnDistMax>180</SpawnDistMax>
-				<WaveCountMin>1</WaveCountMin>
-				<WaveCountMax>2</WaveCountMax>
+				<WaveCountMin>4</WaveCountMin>
+				<WaveCountMax>16</WaveCountMax>
 			</AnimalSpawnInfo>
 			<NightAnimalSpawnInfo>
 				<Animals>
@@ -911,7 +896,7 @@
 				<SpawnDelayMin>900000</SpawnDelayMin>
 				<SpawnDelayMax>6000000</SpawnDelayMax>
 				<WaveCountMin>2</WaveCountMin>
-				<WaveCountMax>4</WaveCountMax>
+				<WaveCountMax>8</WaveCountMax>
 			</NightAnimalSpawnInfo>
 
 			<!-- ************************************************************************************************************************-->
